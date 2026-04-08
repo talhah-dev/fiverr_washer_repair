@@ -10,7 +10,7 @@ navbar.innerHTML = `
           </span>
           <span class="leading-tight font-semibold">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Washer Repair</span>
-            <span id="brandSub" class=" text-xs block  opacity-75">Fast Clean Reliable</span>
+            <span id="brandSub" class="hidden md:block  text-xs   opacity-75">Fast Clean Reliable</span>
           </span>
         </a>
 
@@ -140,14 +140,17 @@ navbar.innerHTML = `
         <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15 text-[#222EC5]">
           <i class="fa-solid fa-wrench"></i>
         </span>
-        <span class="text-base font-extrabold tracking-tight text-[#222EC5]">Washer Repair</span>
+        <span class="leading-tight font-semibold text-[#222EC5]">
+            <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Washer Repair</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
+          </span>
       </a>
 
       <button
         id="closeBtn"
         type="button"
         aria-label="Close menu"
-        class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15 transition hover:bg-[#222EC5]/15 active:scale-[0.98]"
+        class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/4 text-[#222EC5] transition hover:bg-[#222EC5]/15 active:scale-[0.98]"
       >
         <i class="fa-solid fa-xmark text-lg"></i>
       </button>
@@ -161,9 +164,7 @@ navbar.innerHTML = `
           <li>
             <a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] ring-1 ring-[#222EC5]/15 hover:bg-[#1A237E]/5 transition"
               href="index.html">
-              <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                <i class="fa-solid fa-house"></i>
-              </span>
+              
               Home
             </a>
           </li>
@@ -171,9 +172,7 @@ navbar.innerHTML = `
           <li>
             <a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] ring-1 ring-[#222EC5]/15 hover:bg-[#1A237E]/5 transition"
               href="about.html">
-              <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                <i class="fa-solid fa-circle-info"></i>
-              </span>
+              
               About
             </a>
           </li>
@@ -186,13 +185,11 @@ navbar.innerHTML = `
               class="flex w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm font-semibold text-[#1A237E] hover:bg-[#1A237E]/5 transition"
             >
               <span class="inline-flex items-center gap-3">
-                <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                  <i class="fa-solid fa-wrench"></i>
-                </span>
+               
                 Services
               </span>
-              <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                <i id="mServicesChevron" class="fa-solid fa-chevron-down"></i>
+              <span class="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-2xl bg-white text-[#222EC5] ring-1 ring-[#222EC5]/15">
+                <i id="mServicesChevron" class="fa-solid text-xs fa-chevron-down"></i>
               </span>
             </button>
 
@@ -201,9 +198,7 @@ navbar.innerHTML = `
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] bg-[#222EC5]/5 hover:bg-[#222EC5]/10 transition"
                   href="washer-not-spinning.html">
                   <span class="inline-flex items-center gap-3">
-                    <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15">
-                      <i class="fa-solid text-xs fa-rotate text-[#222EC5]"></i>
-                    </span>
+                    
                     Washer not spinning
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
@@ -212,9 +207,7 @@ navbar.innerHTML = `
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] bg-[#222EC5]/5 hover:bg-[#222EC5]/10 transition"
                   href="washer-not-draining.html">
                   <span class="inline-flex items-center gap-3">
-                    <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15">
-                      <i class="fa-solid text-xs fa-sliders text-[#222EC5]"></i>
-                    </span>
+                   
                     Washer not draining
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
@@ -223,9 +216,7 @@ navbar.innerHTML = `
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] bg-[#222EC5]/5 hover:bg-[#222EC5]/10 transition"
                   href="washer-wont-start.html">
                   <span class="inline-flex items-center gap-3">
-                    <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15">
-                      <i class="fa-solid text-xs fa-tag text-[#222EC5]"></i>
-                    </span>
+                   
                     Washer won’t start
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
@@ -234,9 +225,7 @@ navbar.innerHTML = `
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] bg-[#222EC5]/5 hover:bg-[#222EC5]/10 transition"
                   href="leaking-washer.html">
                   <span class="inline-flex items-center gap-3">
-                    <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15">
-                      <i class="fa-solid text-xs fa-house-chimney text-[#222EC5]"></i>
-                    </span>
+                  
                     Leaking washer
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
@@ -245,9 +234,6 @@ navbar.innerHTML = `
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] bg-[#222EC5]/5 hover:bg-[#222EC5]/10 transition"
                   href="local-washer-repair.html">
                   <span class="inline-flex items-center gap-3">
-                    <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15">
-                      <i class="fa-solid text-xs fa-location-dot text-[#222EC5]"></i>
-                    </span>
                     Local washer repair
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
@@ -259,9 +245,6 @@ navbar.innerHTML = `
           <li>
             <a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] ring-1 ring-[#222EC5]/15 hover:bg-[#1A237E]/5 transition"
               href="faq.html">
-              <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                <i class="fa-solid fa-circle-question"></i>
-              </span>
               FAQ
             </a>
           </li>
@@ -269,9 +252,6 @@ navbar.innerHTML = `
           <li>
             <a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#1A237E] ring-1 ring-[#222EC5]/15 hover:bg-[#1A237E]/5 transition"
               href="contact.html">
-              <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15">
-                <i class="fa-solid fa-envelope"></i>
-              </span>
               Contact
             </a>
           </li>
@@ -446,7 +426,7 @@ const setTopStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
   if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-2xl px-3 py-2.5 transition-all duration-300 bg-white/85 ring-1 ring-black/10 shadow-lg shadow-black/5 backdrop-blur";
   if (brandText) brandText.className = "block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight text-[#222EC5]";
-  if (brandSub) brandSub.className = "hidden sm:block text-xs text-[#222EC5]/60";
+  if (brandSub) brandSub.className = "block text-xs text-[#222EC5]/60";
   if (brandMark) brandMark.className = "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
   navLinks.forEach((a) => (a.className = "navLink inline-flex items-center gap-1 text-[#1A237E]/80 hover:text-[#1A237E] transition"));
   if (servicesTrigger) servicesTrigger.className = "dropTrigger inline-flex items-center gap-2 text-[#1A237E]/80 hover:text-[#1A237E] transition";
