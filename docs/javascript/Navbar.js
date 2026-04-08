@@ -10,7 +10,7 @@ navbar.innerHTML = `
           </span>
           <span class="leading-tight font-semibold">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Washer Repair</span>
-            <span id="brandSub" class="hidden md:block  text-xs   opacity-75">Fast Clean Reliable</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
           </span>
         </a>
 
@@ -432,7 +432,7 @@ const setTopStyle = () => {
   if (servicesTrigger) servicesTrigger.className = "dropTrigger inline-flex items-center gap-2 text-[#1A237E]/80 hover:text-[#1A237E] transition";
   if (ctaBtn) ctaBtn.className = "inline-flex items-center gap-2 rounded-2xl bg-[#222EC5] pr-4 pl-1.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-black/10 transition hover:-translate-y-0.5 active:translate-y-0";
   if (ctaIcon) ctaIcon.className = "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-white ring-1 ring-white/20";
-  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15 transition hover:bg-[#222EC5]/15 active:scale-[0.98] md:hidden";
+  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/5 text-[#222EC5] ring-1 ring-[#222EC5]/15 transition hover:bg-[#222EC5]/15 active:scale-[0.98] md:hidden";
   setDropdownStyle("scrolled");
 };
 
@@ -440,13 +440,13 @@ const setScrolledStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
   if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-2xl px-3 py-2.5 transition-all duration-300 bg-white/85 ring-1 ring-black/10 shadow-lg shadow-black/5 backdrop-blur";
   if (brandText) brandText.className = "block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight text-[#222EC5]";
-  if (brandSub) brandSub.className = "hidden sm:block text-xs text-[#222EC5]/60";
+  if (brandSub) brandSub.className = "block text-xs text-[#222EC5]/60";
   if (brandMark) brandMark.className = "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
   navLinks.forEach((a) => (a.className = "navLink inline-flex items-center gap-1 text-[#1A237E]/80 hover:text-[#1A237E] transition"));
   if (servicesTrigger) servicesTrigger.className = "dropTrigger inline-flex items-center gap-2 text-[#1A237E]/80 hover:text-[#1A237E] transition";
   if (ctaBtn) ctaBtn.className = "inline-flex items-center gap-2 rounded-2xl bg-[#222EC5] pr-4 pl-1.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-black/10 transition hover:-translate-y-0.5 active:translate-y-0";
   if (ctaIcon) ctaIcon.className = "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-white/20 text-white ring-1 ring-white/20";
-  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 text-[#222EC5] ring-1 ring-[#222EC5]/15 transition hover:bg-[#222EC5]/15 active:scale-[0.98] md:hidden";
+  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/5 text-[#222EC5] ring-1 ring-[#222EC5]/15 transition hover:bg-[#222EC5]/15 active:scale-[0.98] md:hidden";
   setDropdownStyle("scrolled");
 };
 
