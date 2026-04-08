@@ -4,13 +4,13 @@ navbar.innerHTML = `
   <header id="siteHeader" class="fixed inset-x-0 top-0 z-50">
     <div id="navContainer" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 transition-all duration-300">
       <div id="navBar" class="relative mt-3 flex items-center justify-between rounded-2xl px-3 py-2.5 transition-all duration-300">
-        <a href="index.html" aria-label="Washer Repair home" class="inline-flex h-[60px] w-[220px] shrink-0 items-center gap-3 sm:w-[328px]">
-          <span id="brandMark" class="flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] ring-1">
+        <a href="index.html" class="inline-flex items-center gap-3 shrink-0">
+          <span id="brandMark" class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1">
             <i class="fa-solid fa-wrench"></i>
           </span>
-          <span class="flex min-w-0 flex-1 flex-col justify-center leading-none">
-            <span id="brandText" class="block truncate text-[20px] font-extrabold tracking-[-0.03em] sm:text-[26px]">Washer Repair</span>
-            <span id="brandSub" class="hidden text-[10px] font-semibold uppercase tracking-[0.28em] opacity-75 sm:block">Fast Clean Reliable</span>
+          <span class="leading-tight font-semibold">
+            <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Washer Repair</span>
+            <span id="brandSub" class=" text-xs block  opacity-75">Fast Clean Reliable</span>
           </span>
         </a>
 
@@ -136,14 +136,11 @@ navbar.innerHTML = `
     aria-hidden="true"
   >
     <div class="flex items-center justify-between px-5 py-5">
-      <a href="index.html" aria-label="Washer Repair home" class="inline-flex h-[60px] w-[220px] max-w-full items-center gap-3">
-        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15 text-[#222EC5]">
+      <a href="index.html" class="inline-flex items-center gap-3">
+        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#222EC5]/10 ring-1 ring-[#222EC5]/15 text-[#222EC5]">
           <i class="fa-solid fa-wrench"></i>
         </span>
-        <span class="flex min-w-0 flex-1 flex-col justify-center leading-none">
-          <span class="truncate text-[20px] font-extrabold tracking-[-0.03em] text-[#222EC5]">Washer Repair</span>
-          <span class="mt-1 text-[10px] font-semibold uppercase tracking-[0.28em] text-[#222EC5]/60">Fast Clean Reliable</span>
-        </span>
+        <span class="text-base font-extrabold tracking-tight text-[#222EC5]">Washer Repair</span>
       </a>
 
       <button
@@ -448,9 +445,9 @@ const setDropdownStyle = (mode) => {
 const setTopStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
   if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-2xl px-3 py-2.5 transition-all duration-300 bg-white/85 ring-1 ring-black/10 shadow-lg shadow-black/5 backdrop-blur";
-  if (brandText) brandText.className = "block truncate text-[20px] font-extrabold tracking-[-0.03em] text-[#222EC5] sm:text-[26px]";
-  if (brandSub) brandSub.className = "hidden text-[10px] font-semibold uppercase tracking-[0.28em] text-[#222EC5]/60 sm:block";
-  if (brandMark) brandMark.className = "flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
+  if (brandText) brandText.className = "block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight text-[#222EC5]";
+  if (brandSub) brandSub.className = "hidden sm:block text-xs text-[#222EC5]/60";
+  if (brandMark) brandMark.className = "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
   navLinks.forEach((a) => (a.className = "navLink inline-flex items-center gap-1 text-[#1A237E]/80 hover:text-[#1A237E] transition"));
   if (servicesTrigger) servicesTrigger.className = "dropTrigger inline-flex items-center gap-2 text-[#1A237E]/80 hover:text-[#1A237E] transition";
   if (ctaBtn) ctaBtn.className = "inline-flex items-center gap-2 rounded-2xl bg-[#222EC5] pr-4 pl-1.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-black/10 transition hover:-translate-y-0.5 active:translate-y-0";
@@ -462,9 +459,9 @@ const setTopStyle = () => {
 const setScrolledStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
   if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-2xl px-3 py-2.5 transition-all duration-300 bg-white/85 ring-1 ring-black/10 shadow-lg shadow-black/5 backdrop-blur";
-  if (brandText) brandText.className = "block truncate text-[20px] font-extrabold tracking-[-0.03em] text-[#222EC5] sm:text-[26px]";
-  if (brandSub) brandSub.className = "hidden text-[10px] font-semibold uppercase tracking-[0.28em] text-[#222EC5]/60 sm:block";
-  if (brandMark) brandMark.className = "flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
+  if (brandText) brandText.className = "block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight text-[#222EC5]";
+  if (brandSub) brandSub.className = "hidden sm:block text-xs text-[#222EC5]/60";
+  if (brandMark) brandMark.className = "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1 ring-[#222EC5]/15 bg-[#222EC5]/10 text-[#222EC5]";
   navLinks.forEach((a) => (a.className = "navLink inline-flex items-center gap-1 text-[#1A237E]/80 hover:text-[#1A237E] transition"));
   if (servicesTrigger) servicesTrigger.className = "dropTrigger inline-flex items-center gap-2 text-[#1A237E]/80 hover:text-[#1A237E] transition";
   if (ctaBtn) ctaBtn.className = "inline-flex items-center gap-2 rounded-2xl bg-[#222EC5] pr-4 pl-1.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-black/10 transition hover:-translate-y-0.5 active:translate-y-0";

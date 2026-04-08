@@ -11,14 +11,11 @@ footer.innerHTML = `
   <div class="relative mx-auto max-w-7xl px-6 pt-16 pb-10">
     <div class="grid gap-10 lg:grid-cols-12">
       <div class="lg:col-span-5" data-aos="fade-up" data-aos-duration="900">
-        <a href="./index.html" aria-label="Washer Repair home" class="inline-flex h-[60px] w-[220px] max-w-full items-center gap-3 sm:w-[328px]">
-          <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-[18px] bg-white/10 ring-1 ring-white/15">
+        <a href="./index.html" class="inline-flex items-center gap-3">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">
             <i class="fa-solid fa-wrench text-[#E8ECFF]"></i>
           </span>
-          <span class="flex min-w-0 flex-1 flex-col justify-center leading-none">
-            <span class="truncate text-[20px] font-extrabold tracking-[-0.03em] sm:text-[26px]">Washer Repair</span>
-            <span class="mt-1 text-[10px] font-semibold uppercase tracking-[0.28em] text-white/65">Fast Clean Reliable</span>
-          </span>
+          <span class="text-lg font-semibold tracking-tight">Washer Repair</span>
         </a>
 
         <p class="mt-4 max-w-md text-sm leading-relaxed text-white/75">
