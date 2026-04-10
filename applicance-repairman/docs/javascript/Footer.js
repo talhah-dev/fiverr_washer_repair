@@ -19,17 +19,17 @@ footer.innerHTML = `
         </a>
 
         <p class="mt-4 max-w-md text-sm leading-relaxed text-white/75">
-          Professional appliance repairman service with careful diagnosis, clear estimates, and reliable in-home help.
+          Trusted appliance repairman service with careful diagnosis, clear estimates, and dependable in-home help.
         </p>
 
         <div class="mt-6 flex flex-wrap gap-3">
           <a href="./contact.html" class="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#51005f] px-6 text-sm font-semibold md:w-auto w-full text-center text-white shadow-lg shadow-black/20 hover:brightness-95">
             <i class="fa-solid fa-calendar-check"></i>
-            Schedule a visit
+            Book an appointment
           </a>
           <a href="./index.html#services" class="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-6 md:w-auto w-full text-center text-sm font-semibold text-white hover:bg-white/15">
             <i class="fa-solid fa-wrench"></i>
-            View services
+            See service pages
           </a>
         </div>
 
@@ -52,7 +52,7 @@ footer.innerHTML = `
       <div class="lg:col-span-7 grid gap-8 sm:grid-cols-2" data-aos="fade-up" data-aos-delay="120" data-aos-duration="900">
         <div class="rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur">
           <div class="flex items-center justify-between gap-4">
-            <h3 class="text-sm font-semibold">Quick links</h3>
+            <h3 class="text-sm font-semibold">Useful links</h3>
             <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/20">
               <i class="fa-solid text-xs fa-chevron-right text-white"></i>
             </span>
@@ -85,8 +85,8 @@ footer.innerHTML = `
         <div class="sm:col-span-2 rounded-2xl border border-white/15 bg-white/10 p-6 backdrop-blur">
           <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <div class="text-sm font-semibold">Appliance care tips</div>
-              <div class="mt-1 text-sm text-white/75">Simple maintenance updates to help keep your household appliances running more reliably and efficiently.</div>
+              <div class="text-sm font-semibold">Appliance upkeep tips</div>
+              <div class="mt-1 text-sm text-white/75">Simple upkeep reminders to help your household appliances run more smoothly and reliably.</div>
             </div>
             <form class="flex w-full max-w-md items-center gap-3">
               <input
@@ -134,6 +134,7 @@ footer.innerHTML = `
   </script>
 </footer>
 `;
+
 
 
 

@@ -10,7 +10,7 @@ navbar.innerHTML = `
           </span>
           <span class="leading-tight font-semibold">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Appliance Repairman</span>
-            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Prompt Clear Dependable</span>
           </span>
         </a>
 
@@ -111,7 +111,7 @@ navbar.innerHTML = `
             <span id="ctaIcon" class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl ring-1">
               <i class="fa-solid fa-paper-plane"></i>
             </span>
-            <span class="hidden sm:inline">Schedule Service</span>
+            <span class="hidden sm:inline">Request Service</span>
           </a>
         </div>
 
@@ -142,7 +142,7 @@ navbar.innerHTML = `
         </span>
         <span class="leading-tight font-semibold text-[#51005f]">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Appliance Repairman</span>
-            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Prompt Clear Dependable</span>
           </span>
       </a>
 
@@ -272,7 +272,7 @@ navbar.innerHTML = `
         <div class="mt-4 grid gap-2">
           <a href="contact.html"
             class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[#51005f] p-3 text-sm font-extrabold text-white shadow-lg shadow-black/10 transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[#51005f]/30">
-            Schedule Service
+            Request Service
           </a>
 
           <a href="index.html#services"
@@ -522,6 +522,7 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
 
 
 
