@@ -349,7 +349,7 @@ const openMenu = () => {
   lockScroll();
   panel.setAttribute("aria-hidden", "false");
   if (menuBtn) menuBtn.setAttribute("aria-expanded", "true");
-  requestAnimationarame(() => {
+  requestAnimationFrame(() => {
     overlay.classList.remove("opacity-0");
     overlay.classList.add("opacity-100");
     panel.classList.remove("translate-x-full");
@@ -460,7 +460,7 @@ let ticking = false;
 const onScroll = () => {
   if (ticking) return;
   ticking = true;
-  requestAnimationarame(() => {
+  requestAnimationFrame(() => {
     applyNavState();
     ticking = false;
   });
@@ -522,4 +522,5 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
 
