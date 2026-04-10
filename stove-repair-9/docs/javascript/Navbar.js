@@ -40,22 +40,22 @@ navbar.innerHTML = `
                 aria-label="Services menu"
               >
                 <div id="servicesMenuBox" class="rounded-2xl border p-3 shadow-2xl">
-                  <a href="stove-baking-unevenly.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="stove-heating-unevenly.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                     
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range burner not working</p>
-                      <p class="mt-1 text-xs opacity-75">Spin, lid, belt, and motor checks</p>
+                      <p class="text-sm font-semibold">Stove heating unevenly</p>
+                      <p class="mt-1 text-xs opacity-75">Hot spots, weak heat, and temperature-balance checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
                     </span>
                   </a>
 
-                  <a href="stove-not-heating.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="stove-burner-not-working.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                    
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Stove not heating</p>
-                      <p class="mt-1 text-xs opacity-75">Heating element, igniter, and sensor checks</p>
+                      <p class="text-sm font-semibold">Stove burner not working</p>
+                      <p class="mt-1 text-xs opacity-75">Igniter, switch, spark, and burner-flow checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -65,8 +65,8 @@ navbar.innerHTML = `
                   <a href="stove-wont-turn-on.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range won't turn on</p>
-                      <p class="mt-1 text-xs opacity-75">Power, latch, and control checks</p>
+                      <p class="text-sm font-semibold">Stove won't turn on</p>
+                      <p class="mt-1 text-xs opacity-75">Power, breaker, terminal, and control checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -76,8 +76,8 @@ navbar.innerHTML = `
                   <a href="stove-smells-like-gas.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range smells like gas</p>
-                      <p class="mt-1 text-xs opacity-75">Hose, seal & overflow checks</p>
+                      <p class="text-sm font-semibold">Stove smells like gas</p>
+                      <p class="mt-1 text-xs opacity-75">Valve, ignition, line, and ventilation checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -196,19 +196,19 @@ navbar.innerHTML = `
             <div id="mServicesPanel" class="max-h-0 overflow-hidden transition-[max-height] duration-300 ease-out bg-white">
               <div class="p-3 space-y-2">
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#002d64]/5 hover:bg-[#002d64]/10 transition"
-                  href="stove-baking-unevenly.html">
+                  href="stove-heating-unevenly.html">
                   <span class="inline-flex items-center gap-3">
                     
-                    Range burner not working
+                    Stove heating unevenly
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
 
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#002d64]/5 hover:bg-[#002d64]/10 transition"
-                  href="stove-not-heating.html">
+                  href="stove-burner-not-working.html">
                   <span class="inline-flex items-center gap-3">
                    
-                    Stove not heating
+                    Stove burner not working
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -217,7 +217,7 @@ navbar.innerHTML = `
                   href="stove-wont-turn-on.html">
                   <span class="inline-flex items-center gap-3">
                    
-                    Range won't turn on
+                    Stove won't turn on
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -226,7 +226,7 @@ navbar.innerHTML = `
                   href="stove-smells-like-gas.html">
                   <span class="inline-flex items-center gap-3">
                   
-                    Range smells like gas
+                    Stove smells like gas
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -522,4 +522,5 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
 

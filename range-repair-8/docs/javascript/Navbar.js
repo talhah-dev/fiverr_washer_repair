@@ -51,10 +51,10 @@ navbar.innerHTML = `
                     </span>
                   </a>
 
-                  <a href="oven-not-heating.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="range-not-heating.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                    
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Oven not heating</p>
+                      <p class="text-sm font-semibold">Range not heating</p>
                       <p class="mt-1 text-xs opacity-75">Bake element, igniter, sensor, and control checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
@@ -205,10 +205,10 @@ navbar.innerHTML = `
                 </a>
 
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#670057]/5 hover:bg-[#670057]/10 transition"
-                  href="oven-not-heating.html">
+                  href="range-not-heating.html">
                   <span class="inline-flex items-center gap-3">
                    
-                    Oven not heating
+                    Range not heating
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -522,4 +522,5 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
 

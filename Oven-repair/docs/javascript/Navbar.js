@@ -43,8 +43,8 @@ navbar.innerHTML = `
                   <a href="oven-baking-unevenly.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                     
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range burner not working</p>
-                      <p class="mt-1 text-xs opacity-75">Spin, lid, belt, and motor checks</p>
+                      <p class="text-sm font-semibold">Oven baking unevenly</p>
+                      <p class="mt-1 text-xs opacity-75">Heating pattern, sensor, and airflow checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -65,7 +65,7 @@ navbar.innerHTML = `
                   <a href="oven-wont-turn-on.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range won't turn on</p>
+                      <p class="text-sm font-semibold">Oven won't turn on</p>
                       <p class="mt-1 text-xs opacity-75">Power, latch, and control checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
@@ -76,8 +76,8 @@ navbar.innerHTML = `
                   <a href="oven-smells-like-gas.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range smells like gas</p>
-                      <p class="mt-1 text-xs opacity-75">Hose, seal & overflow checks</p>
+                      <p class="text-sm font-semibold">Oven smells like gas</p>
+                      <p class="mt-1 text-xs opacity-75">Ignition, valve, and gas-flow checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -199,7 +199,7 @@ navbar.innerHTML = `
                   href="oven-baking-unevenly.html">
                   <span class="inline-flex items-center gap-3">
                     
-                    Range burner not working
+                    Oven baking unevenly
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -217,7 +217,7 @@ navbar.innerHTML = `
                   href="oven-wont-turn-on.html">
                   <span class="inline-flex items-center gap-3">
                    
-                    Range won't turn on
+                    Oven won't turn on
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -226,7 +226,7 @@ navbar.innerHTML = `
                   href="oven-smells-like-gas.html">
                   <span class="inline-flex items-center gap-3">
                   
-                    Range smells like gas
+                    Oven smells like gas
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -522,4 +522,5 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
 

@@ -10,7 +10,7 @@ navbar.innerHTML = `
           </span>
           <span class="leading-tight font-semibold">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Microwave Repair</span>
-            <span id="brandSub" class="block  text-xs   opacity-75">aast Clean Reliable</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
           </span>
         </a>
 
@@ -40,11 +40,11 @@ navbar.innerHTML = `
                 aria-label="Services menu"
               >
                 <div id="servicesMenuBox" class="rounded-2xl border p-3 shadow-2xl">
-                  <a href="microwave-baking-unevenly.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="microwave-sparking.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                     
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Microwave not heating</p>
-                      <p class="mt-1 text-xs opacity-75">Spin, lid, belt, and motor checks</p>
+                      <p class="text-sm font-semibold">Microwave sparking</p>
+                      <p class="mt-1 text-xs opacity-75">Waveguide, rack, diode, and interior checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -62,22 +62,22 @@ navbar.innerHTML = `
                     </span>
                   </a>
 
-                  <a href="microwave-wont-turn-on.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="microwave-wont-start.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
                       <p class="text-sm font-semibold">Microwave won't start</p>
-                      <p class="mt-1 text-xs opacity-75">Power, latch, and control checks</p>
+                      <p class="mt-1 text-xs opacity-75">Power, door switch, and control checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
                     </span>
                   </a>
 
-                  <a href="microwave-smells-like-gas.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
+                  <a href="microwave-shuts-off.html" class="menuItem group flex items-start gap-3 rounded-2xl p-3 transition">
                   
                     <div class="flex-1">
-                      <p class="text-sm font-semibold">Range smells like gas</p>
-                      <p class="mt-1 text-xs opacity-75">Hose, seal & overflow checks</p>
+                      <p class="text-sm font-semibold">Microwave shuts off</p>
+                      <p class="mt-1 text-xs opacity-75">Fan, thermostat, and overheating checks</p>
                     </div>
                     <span class="menuArrow flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ring-1">
                       <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -142,7 +142,7 @@ navbar.innerHTML = `
         </span>
         <span class="leading-tight font-semibold text-[#3e0049]">
             <span id="brandText" class="block -mb-0.5 text-base sm:text-lg font-extrabold tracking-tight">Microwave Repair</span>
-            <span id="brandSub" class="block  text-xs   opacity-75">aast Clean Reliable</span>
+            <span id="brandSub" class="block  text-xs   opacity-75">Fast Clean Reliable</span>
           </span>
       </a>
 
@@ -196,10 +196,10 @@ navbar.innerHTML = `
             <div id="mServicesPanel" class="max-h-0 overflow-hidden transition-[max-height] duration-300 ease-out bg-white">
               <div class="p-3 space-y-2">
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#3e0049]/5 hover:bg-[#3e0049]/10 transition"
-                  href="microwave-baking-unevenly.html">
+                  href="microwave-sparking.html">
                   <span class="inline-flex items-center gap-3">
                     
-                    Microwave not heating
+                    Microwave sparking
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -214,7 +214,7 @@ navbar.innerHTML = `
                 </a>
 
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#3e0049]/5 hover:bg-[#3e0049]/10 transition"
-                  href="microwave-wont-turn-on.html">
+                  href="microwave-wont-start.html">
                   <span class="inline-flex items-center gap-3">
                    
                     Microwave won't start
@@ -223,10 +223,10 @@ navbar.innerHTML = `
                 </a>
 
                 <a class="mSub flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-[#161616] bg-[#3e0049]/5 hover:bg-[#3e0049]/10 transition"
-                  href="microwave-smells-like-gas.html">
+                  href="microwave-shuts-off.html">
                   <span class="inline-flex items-center gap-3">
                   
-                    Range smells like gas
+                    Microwave shuts off
                   </span>
                   <i class="fa-solid fa-arrow-right text-xs opacity-70"></i>
                 </a>
@@ -522,4 +522,7 @@ window.addEventListener("keydown", (e) => {
 });
 
 setMenuClosed(true);
+
+
+
 

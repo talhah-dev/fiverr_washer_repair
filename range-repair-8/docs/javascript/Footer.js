@@ -76,7 +76,7 @@ footer.innerHTML = `
 
           <ul class="mt-4 grid gap-3 text-sm">
             <li><a class="text-white/75 hover:text-white" href="./range-burner-not-working.html">Range burner not working</a></li>
-            <li><a class="text-white/75 hover:text-white" href="./oven-not-heating.html">Oven not heating</a></li>
+            <li><a class="text-white/75 hover:text-white" href="./range-not-heating.html">Range not heating</a></li>
             <li><a class="text-white/75 hover:text-white" href="./range-wont-turn-on.html">Range won't turn on</a></li>
             <li><a class="text-white/75 hover:text-white" href="./range-smells-like-gas.html">Range smells like gas</a></li>
           </ul>
@@ -134,3 +134,4 @@ footer.innerHTML = `
   </script>
 </footer>
 `;
+
